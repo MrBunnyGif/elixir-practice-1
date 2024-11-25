@@ -5,4 +5,5 @@ defmodule Stats do
   # mesma coisa que a linha de baixo
 
   defdelegate population_mean(numbers), to: Mean
+  defdelegate sample_mean(numbers), to: Mean
 end
